@@ -1,6 +1,0 @@
----
-# simple_web/handlers/main.yml
-- name: Restart NGINX
-  ansible.builtin.service:
-    name: nginx
-    state: restarted
