@@ -22,7 +22,7 @@ The Example Voting App consists of multiple services that need to be containeriz
 ### 1. **Install Stage**
 
 - Install Docker and required tools
-- Set up build environment
+- Set up build environment asfd
 - Configure Docker Hub authentication
 
 
