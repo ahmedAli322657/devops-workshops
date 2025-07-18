@@ -4,10 +4,9 @@ stages:
 
 
 build-job:
-  image: python:3.11-slim
+  image: node:14
   stage: build
   script: | 
-    q
     cd vote
     echo "build vote"
     apt-get update && \ apt-get install -y --no-install-recommends curl && \ rm -rf /var/lib/apt/lists/*
